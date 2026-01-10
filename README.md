@@ -17,6 +17,7 @@ Build a real world end to end project
 Apply Lakehouse, Spark, and ETL workflows
 
 📅 Daily Progress Log
+
 ⭐ Day 1 Platform Setup & First Steps
 
 📘 Key Learnings
