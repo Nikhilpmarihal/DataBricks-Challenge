@@ -52,3 +52,69 @@ filter()
 groupBy()
 orderBy()
 Used col() for clean transformations and null handling
+
+⭐ Day 2 PySpark Transformations Deep Dive
+
+E-commerce Data Analysis with PySpark
+📊 Project Overview
+A comprehensive PySpark-based analysis of e-commerce user behavior data, featuring complex data transformations, window functions, and derived feature engineering. This project demonstrates big data processing capabilities for e-commerce analytics.
+
+🚀 Features
+Data Loading: Efficiently loads large-scale e-commerce datasets
+
+Complex Joins: Multi-table joins for comprehensive user and product insights
+
+Window Functions: Advanced running totals and time-based aggregations
+
+Feature Engineering: 30+ derived features for behavioral analysis
+
+Analytics: Built-in insights and user segmentation
+
+📁 Dataset Structure
+The dataset contains the following columns:
+
+event_time: Timestamp of user activity
+
+event_type: Type of event (view/cart/purchase)
+
+product_id: Unique product identifier
+
+category_id: Product category ID
+
+category_code: Hierarchical category path
+
+brand: Product brand
+
+price: Product price
+
+user_id: Unique user identifier
+
+user_session: Session identifier
+
+
+1. Data Loading & Preparation
+
+2. Complex Joins
+User session summary aggregation
+
+Product performance metrics
+
+User behavior profiling
+
+3. Window Functions
+User-level running totals
+
+Product view sequences
+
+Time-based calculations
+
+Session-based aggregations
+
+4. Derived Features
+Temporal Features: Hour, day, weekend flags
+
+Behavioral Features: Engagement scores, funnel stages
+
+Business Features: Price categories, conversion rates
+
+Session Features: Intensity metrics, duration analysis
